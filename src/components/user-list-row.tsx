@@ -13,8 +13,8 @@ interface UserListRowUI {
   handleUserRemove: (id: number, title: string) => void;
 }
 
-// Create BookshelfListRow component
-export const BookshelfListRow = (props: UserListRowUI) => (
+// Create UserListRow component
+export const UserListRow = (props: UserListRowUI) => (
   <tr className="table-row">
     <td className="table-item">
       {props.position}

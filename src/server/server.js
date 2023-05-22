@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // Implement users route
-app.use('/users', booksRouter)
+app.use('/users', usersRouter)
 
 // Implement 500 error route
 app.use(function (err, req, res, next) {

@@ -1,9 +1,11 @@
+// @ts-check
+
 // Import deps
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 // Import components
-import { UserList } from './user-list'
+import { UserList } from '../components/userList'
 
 // Import styles
 import './../styles/admin-user-list.css'
@@ -133,7 +135,7 @@ export const Users = () => {
   
         {/* Show reset button if list contains at least one book */}
         {users.length > 0 && (
-          <button className="btn btn-reset" onClick={handleListReset}>Reset books list.</button>
+          <button className="btn btn-reset" onClick={handleListReset}>Reset users list.</button>
         )}
       </div>
     )

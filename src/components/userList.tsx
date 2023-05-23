@@ -1,8 +1,10 @@
+// @ts-check
+
 // Import deps
 import React from 'react'
 
 // Import components
-import { UserListRow } from './user-list-row.tsx'
+import { UserListRow } from './userListRow'
 
 // Import styles
 import './../styles/user-list.css'

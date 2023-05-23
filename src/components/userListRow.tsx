@@ -1,3 +1,5 @@
+// @ts-check
+
 // Import deps
 import React from 'react'
 

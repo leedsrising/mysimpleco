@@ -6,7 +6,7 @@ import axios from 'axios'
 import { UserList } from './user-list'
 
 // Import styles
-import './../styles/users.css'
+import './../styles/admin-user-list.css'
 
 export const Users = () => {
     // Prepare states

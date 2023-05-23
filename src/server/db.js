@@ -23,7 +23,7 @@ knex.schema
         // If no "users" table exists
         // create new, with "id", "name", "email", "service"
         // and use "id" as a primary identification
-        return knex.schema.createTable('books', (table)  => {
+        return knex.schema.createTable('users', (table)  => {
           table.increments('id').primary()
           table.integer('name')
           table.string('email')
@@ -47,7 +47,7 @@ knex.schema
     })
 
 // Just for debugging purposes:
-// Log all data in "books" table
+// Log all data in "users" table
 knex.select('*').from('users')
   .then(data => console.log('data:', data))
   .catch(err => console.log(err))

@@ -5,7 +5,7 @@ import React from 'react'
 import { UserListRow } from './user-list-row.tsx'
 
 // Import styles
-import './../styles/bookshelf-list.css'
+import './../styles/user-list.css'
 
 // Create interfaces
 interface userUI {
@@ -24,7 +24,7 @@ interface userListUI {
 // Create UserList component
 export const UserList = (props: userListUI) => {
   // Show loading message
-  if (props.loading) return <p>Leaderboard table is loading...</p>
+  if (props.loading) return <p>User List is loading...</p>
 
   return (
     <table className="table">

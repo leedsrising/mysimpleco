@@ -8,9 +8,9 @@ const userRoutes = require('./../controllers/user-controller.js')
 const router = express.Router()
 
 // GET request for all users
-router.get('/all', userRoutes.usersAll)
+router.get('/all', userRoutes.allUsers)
 
-// Add route for POST request to create new user
+// Add route for POST request to create new 
 router.post('/create', userRoutes.userCreate)
 
 // Add route for PUT request to delete specific user

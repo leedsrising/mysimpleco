@@ -5,7 +5,7 @@ const cors = require('cors')
 const helmet = require('helmet')
 
 // Import routes
-const usersRouter = require('./routes/users-route')
+const usersRouter = require('/Users/leedsrising/Desktop/mysimpleco/src/server/routes/user-route.js')
 
 // Set default port for express app
 const PORT = process.env.PORT || 4001

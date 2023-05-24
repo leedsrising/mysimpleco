@@ -10,6 +10,8 @@ import { Home } from './routes/home';
 
 const darkTheme = createTheme({type: 'dark'})
 
+
+
 function App() {
   return (
     <NextUIProvider theme={darkTheme}>
